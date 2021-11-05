@@ -1,0 +1,113 @@
+/* Normalize css */
+body, ul, p, h1 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+button {
+  font-family: inherit; /* For all browsers */
+  font-size: 100%; /* For all browsers */
+  line-height: 1.15; /* For all browsers */
+  margin: 0; /* Firefox and Safari have margin */
+  overflow: visible; /* Edge hides overflow */
+  text-transform: none; /* Firefox inherits text-transform */
+  -webkit-appearance: button; /* Safari otherwise prevents some styles */
+}
+
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* Code starts from here */
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+#first-page {
+	background-color: #1F2937;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#header {
+	width: 65vw;
+	display: flex;
+	padding: 20px;
+}
+
+#header-logo {
+	font-size: 24px;
+}
+
+#header-links {
+	display: flex;
+	gap: 25px;
+}
+
+#banner {
+	width: 65vw;
+	display: flex;
+}
+
+.button {
+	background-color: #3882F6;
+	color: white;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	padding: 7px 35px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 6px;
+}
+
+.auto-hor-margin {
+	margin: 0 auto;
+}
+
+.auto-ver-margin {
+	margin: auto 0;
+}
+
+.banner-text {
+	flex-basis: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: flex-start;
+}
+
+.banner-img {
+	width: 50%;
+	height: 30vh;
+	background-color: #6d747d;
+	color: white;
+}
+
+.bold-white-color {
+	color: #F9FAF8;
+	font-weight: 800;
+}
+
+.light-white-color {
+	color: #E5E7EB;
+}
+
+.18px-font {
+	font-size: 18px;
+}
